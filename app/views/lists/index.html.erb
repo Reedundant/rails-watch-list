@@ -1,0 +1,18 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1534684686641-05569203ecca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3432&q=80);">
+  <div class="container center">
+    <h1>Behold our <strong>staff picks</strong> of <strong>Hollywood shlock</strong>!</h1>
+    <p>Handpicked garbage straight out of the American propaganda machine! Get it while it's hot!</p>
+    <a class="btn btn-flat" href="#">CONSUME</a>
+  </div>
+</div>
+
+
+
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80)">
+  Garbage
+  <ul>
+    <% @lists.each do |list| %>
+      <li><%=  list.name %></li>
+    <% end %>
+  </ul>
+</div>
