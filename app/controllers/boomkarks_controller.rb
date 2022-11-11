@@ -1,2 +1,0 @@
-class BoomkarksController < ApplicationController
-end
